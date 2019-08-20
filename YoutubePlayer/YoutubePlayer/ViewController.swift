@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         let watch = "https://www.youtube.com/watch?v="
         let videoId = "M7lc1UVf-VE"
         exampleContent = ["\(embeded)\(videoId)",
-                          "\(watch)\(videoId)"]
+                        "\(watch)\(videoId)",
+        "https://vid.alarabiya.net/2019/03/14/FO-031419ADC/FO-031419ADC___FO-031419ADC_video.webm"]
         
         tableView.delegate = self
         tableView.dataSource = self
