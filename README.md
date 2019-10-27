@@ -6,3 +6,7 @@ Mulilingual mixed text
 
 # DarkMode Demo
 Convert exsiting app to iOS 13 to support Dark mode
+- TabbarController
+- Asset cateloge
+- SubViews
+- UILables
