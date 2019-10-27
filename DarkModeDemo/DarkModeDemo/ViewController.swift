@@ -17,7 +17,8 @@ class ViewController: UIViewController {
         switch traitCollection.userInterfaceStyle {
         case
           .unspecified,
-          .light: return .white
+          .light:
+            return .white
         case .dark:
             return .black
         @unknown default:
@@ -29,7 +30,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         bg.backgroundColor = dynamicColor
-        
         lblHelloWorld.textColor = .label
     }
 

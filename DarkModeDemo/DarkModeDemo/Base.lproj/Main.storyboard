@@ -28,18 +28,25 @@
                                     <constraint firstAttribute="width" constant="240" id="9uC-Vb-cMS"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="edit" translatesAutoresizingMaskIntoConstraints="NO" id="IrU-bG-SOs">
+                                <rect key="frame" x="155" y="169" width="104" height="90"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="vuh-qt-efA" firstAttribute="top" secondItem="cA6-Hx-Fag" secondAttribute="bottom" constant="27.5" id="0MC-p4-m6x"/>
+                            <constraint firstItem="IrU-bG-SOs" firstAttribute="leading" secondItem="hBp-Nh-cnx" secondAttribute="leading" constant="155" id="6v2-9n-2as"/>
                             <constraint firstItem="cA6-Hx-Fag" firstAttribute="leading" secondItem="hBp-Nh-cnx" secondAttribute="leading" constant="87" id="7w2-99-fKH"/>
+                            <constraint firstItem="IrU-bG-SOs" firstAttribute="centerX" secondItem="cA6-Hx-Fag" secondAttribute="centerX" id="BpJ-NV-VhB"/>
                             <constraint firstItem="hBp-Nh-cnx" firstAttribute="trailing" secondItem="cA6-Hx-Fag" secondAttribute="trailing" constant="87" id="C4C-49-4Yp"/>
                             <constraint firstItem="vuh-qt-efA" firstAttribute="centerX" secondItem="Yaa-MY-iwf" secondAttribute="centerX" id="EkN-Ib-bjD"/>
+                            <constraint firstItem="IrU-bG-SOs" firstAttribute="top" secondItem="hBp-Nh-cnx" secondAttribute="top" constant="125" id="Ulh-Je-QHq"/>
+                            <constraint firstItem="cA6-Hx-Fag" firstAttribute="top" secondItem="IrU-bG-SOs" secondAttribute="bottom" constant="23" id="n3Z-W2-AmY"/>
                             <constraint firstItem="vuh-qt-efA" firstAttribute="centerY" secondItem="Yaa-MY-iwf" secondAttribute="centerY" id="x6K-Zr-Zua"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hBp-Nh-cnx"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Screen B" image="square.and.pencil" catalog="system" id="JD8-Zg-SHu"/>
+                    <tabBarItem key="tabBarItem" title="Screen B" image="edit" id="JD8-Zg-SHu"/>
                     <connections>
                         <outlet property="bg" destination="Yaa-MY-iwf" id="I2P-aP-MNN"/>
                         <outlet property="lblHelloWorld" destination="vuh-qt-efA" id="ebj-am-CI7"/>
@@ -47,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWg-TN-eDI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-116" y="100"/>
+            <point key="canvasLocation" x="-117.39130434782609" y="99.776785714285708"/>
         </scene>
         <!--Screen A-->
         <scene sceneID="dXB-hC-BOp">
@@ -70,31 +77,39 @@
                                     <constraint firstAttribute="width" constant="240" id="spe-OC-CsF"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="gBV-zA-Q4b">
+                                <rect key="frame" x="155" y="184" width="104" height="90"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="gBV-zA-Q4b" firstAttribute="centerX" secondItem="f0w-Nc-1bv" secondAttribute="centerX" id="35W-tv-p88"/>
                             <constraint firstItem="f0w-Nc-1bv" firstAttribute="leading" secondItem="ngr-Vm-cBG" secondAttribute="leading" constant="87" id="91Q-cQ-S7f"/>
+                            <constraint firstItem="gBV-zA-Q4b" firstAttribute="leading" secondItem="ngr-Vm-cBG" secondAttribute="leading" constant="155" id="IXi-uI-NiZ"/>
                             <constraint firstItem="vHZ-QR-McY" firstAttribute="centerY" secondItem="x9Q-aI-lJe" secondAttribute="centerY" id="TZf-Wo-JEM"/>
                             <constraint firstItem="vHZ-QR-McY" firstAttribute="top" secondItem="f0w-Nc-1bv" secondAttribute="bottom" constant="27.5" id="WFU-EJ-8vW"/>
+                            <constraint firstItem="f0w-Nc-1bv" firstAttribute="top" secondItem="gBV-zA-Q4b" secondAttribute="bottom" constant="8" id="hhU-tG-1hQ"/>
                             <constraint firstItem="ngr-Vm-cBG" firstAttribute="trailing" secondItem="f0w-Nc-1bv" secondAttribute="trailing" constant="87" id="iRS-qe-Uhu"/>
+                            <constraint firstItem="gBV-zA-Q4b" firstAttribute="top" secondItem="ngr-Vm-cBG" secondAttribute="top" constant="140" id="w0G-pE-mCp"/>
                             <constraint firstItem="vHZ-QR-McY" firstAttribute="centerX" secondItem="x9Q-aI-lJe" secondAttribute="centerX" id="w2B-fj-x1s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ngr-Vm-cBG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Screen A" image="pencil" catalog="system" id="pCD-7d-7tg"/>
+                    <tabBarItem key="tabBarItem" title="Screen A" image="user" id="pCD-7d-7tg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bnj-XD-fQS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-116" y="-548"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab View Controller-->
         <scene sceneID="3Bg-rm-WuF">
             <objects>
-                <tabBarController id="b2O-Ze-gTj" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="CustomTabViewController" id="b2O-Ze-gTj" customClass="CustomTabViewController" customModule="DarkModeDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Pc-Fa-fmX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" cocoaTouchSystemColor="darkTextColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="Ldd-N2-pGd" kind="relationship" relationship="viewControllers" id="jJd-kg-Zrz"/>
@@ -108,7 +123,7 @@
     </scenes>
     <resources>
         <image name="Image" width="582" height="340"/>
-        <image name="pencil" catalog="system" width="64" height="56"/>
-        <image name="square.and.pencil" catalog="system" width="64" height="58"/>
+        <image name="edit" width="40" height="40"/>
+        <image name="user" width="40" height="40"/>
     </resources>
 </document>

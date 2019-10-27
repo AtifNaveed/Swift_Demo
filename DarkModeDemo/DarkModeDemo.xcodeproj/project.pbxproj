@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C040AB252365DCB200C59472 /* CustomTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C040AB242365DCB200C59472 /* CustomTabViewController.swift */; };
 		C0D3067F235DE93400D5E3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D3067E235DE93400D5E3EC /* AppDelegate.swift */; };
 		C0D30681235DE93400D5E3EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D30680235DE93400D5E3EC /* SceneDelegate.swift */; };
 		C0D30683235DE93400D5E3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D30682235DE93400D5E3EC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C040AB242365DCB200C59472 /* CustomTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabViewController.swift; sourceTree = "<group>"; };
 		C0D3067B235DE93400D5E3EC /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D3067E235DE93400D5E3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D30680235DE93400D5E3EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				C0D3067E235DE93400D5E3EC /* AppDelegate.swift */,
 				C0D30680235DE93400D5E3EC /* SceneDelegate.swift */,
+				C040AB242365DCB200C59472 /* CustomTabViewController.swift */,
 				C0D30682235DE93400D5E3EC /* ViewController.swift */,
 				C0D30684235DE93400D5E3EC /* Main.storyboard */,
 				C0D30687235DE93600D5E3EC /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0D30683235DE93400D5E3EC /* ViewController.swift in Sources */,
+				C040AB252365DCB200C59472 /* CustomTabViewController.swift in Sources */,
 				C0D3067F235DE93400D5E3EC /* AppDelegate.swift in Sources */,
 				C0D30681235DE93400D5E3EC /* SceneDelegate.swift in Sources */,
 			);
