@@ -10,3 +10,6 @@ Convert exsiting app to iOS 13 to support Dark mode
 - Asset catalogue
 - SubViews
 - UILables
+
+# Apple SignIn
+Login with apple id
