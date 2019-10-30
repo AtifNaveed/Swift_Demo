@@ -12,4 +12,6 @@ Convert exsiting app to iOS 13 to support Dark mode
 - UILables
 
 # Apple SignIn
-Login with apple id
+Add SignInWithApple Capability | Entitlement (by clicking + button under project and targets)
+- Login with apple id
+- Darkmode supported button UI
