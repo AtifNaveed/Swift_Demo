@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         setUpButton()
     }
     func setUpButton() {
-        let btnAppleLogin = ASAuthorizationAppleIDButton()
+        let btnAppleLogin = ASAuthorizationAppleIDButton(type: .signIn, style: traitCollection.userInterfaceStyle == .light ? .black : .white)
         btnAppleLogin.addTarget(self, action: #selector(btnAction), for: .touchUpInside)
         btnAppleLogin.widthAnchor.constraint(equalToConstant: self.loginView.frame.width).isActive = true
         btnAppleLogin.heightAnchor.constraint(equalToConstant: self.loginView.frame.height).isActive = true
