@@ -6,10 +6,10 @@ Mulilingual mixed text
 
 # DarkMode Demo
 Convert exsiting app to iOS 13 to support Dark mode
-- TabbarController
-- Asset catalogue
-- SubViews
-- UILables
+- Tabbar Controller
+- Asset catalogue | Images
+- Views | Subviews
+- UILables | Buttons
 
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1572519455/4_vazbgy.png)
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1572519455/5_wd5kay.png)
