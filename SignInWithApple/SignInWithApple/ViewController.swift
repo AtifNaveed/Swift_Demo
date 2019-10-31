@@ -38,6 +38,15 @@ extension ViewController: ASAuthorizationControllerDelegate {
     func authorizationController(controller: ASAuthorizationController, didCompleteWithAuthorization authorization: ASAuthorization) {
         guard let credential = authorization.credential as?  ASAuthorizationAppleIDCredential else {return}
         print(credential)
+        //        guard let email = credential.email else {return}
+        //        guard let fullName = credential.fullName else {return}
+        //        print(email)
+        //        print(fullName)
+        postAuthenticationMethod()
+    }
+    func postAuthenticationMethod() {
+        guard let vc = appDelegate().storyboard().instantiateViewController(withIdentifier: String(describing: HomeViewController.self)) as? HomeViewController else { return }
+        appDelegate().setRoot(root: vc)
     }
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
         print(error)
