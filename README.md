@@ -19,7 +19,7 @@ Convert exsiting app to iOS 13 to support Dark mode
 # Youtube Player
 Inline Youtube Player in TablView
 
-# LTR - RTL Management
+# RTL - LTR Management
 Mulilingual direction management
 
 # Bidirection Text
