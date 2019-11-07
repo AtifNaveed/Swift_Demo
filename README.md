@@ -17,7 +17,7 @@ Convert exsiting app to iOS 13 to support Dark mode
 ![alt image is missing](https://res.cloudinary.com/atifcloud/image/upload/c_scale,h_700/v1572519455/5_wd5kay.png)
 
 # Youtube Player
-Inline Youtube Player in TablView
+Inline Youtube Player in TableView
 
 # RTL - LTR Direction
 Mulilingual direction management
