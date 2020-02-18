@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BA9B7A0C-C43B-4D2D-8AD1-1AD2AC7B4723"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E054D7FB-AE77-4661-9BF1-086CB4808BA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "new/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E054D7FB-AE77-4661-9BF1-086CB4808BA9 - 875953b581e8cf56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "new.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "new"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atif/Desktop/new/new/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "E054D7FB-AE77-4661-9BF1-086CB4808BA9 - 875953b581e8cf56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "new.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "new"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/atif/Desktop/new/new/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "1182">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
