@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AFF2FAA1462FEF7E00217845 /* Pods_YoutubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C879BE7E24F2E4758685C276 /* Pods_YoutubePlayer.framework */; };
+		C04687C12486FD440026AB89 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04687C02486FD440026AB89 /* WebKit.framework */; };
 		C0D434CD224382120049E16E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D434CC224382120049E16E /* AppDelegate.swift */; };
 		C0D434CF224382120049E16E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D434CE224382120049E16E /* ViewController.swift */; };
 		C0D434D2224382120049E16E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D434D0224382120049E16E /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		6FBAF4C1CD9878DB4CC342D1 /* Pods-YoutubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubePlayer/Pods-YoutubePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		C04687C02486FD440026AB89 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C0D434C9224382120049E16E /* YoutubePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D434CC224382120049E16E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D434CE224382120049E16E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04687C12486FD440026AB89 /* WebKit.framework in Frameworks */,
 				AFF2FAA1462FEF7E00217845 /* Pods_YoutubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 		3BD1B8FE2D087CD9202A84E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C04687C02486FD440026AB89 /* WebKit.framework */,
 				C879BE7E24F2E4758685C276 /* Pods_YoutubePlayer.framework */,
 			);
 			name = Frameworks;
